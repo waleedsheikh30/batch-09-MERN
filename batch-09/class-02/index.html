@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiEjBilP-PBEbL7NAsVh5jU2PEYPgaGhh8-g&s" alt="img1">
+
+    <!-- pre tag -->
+    <pre>
+        hello 
+            world 
+                This 
+                    is 
+                        My 
+                            world
+    </pre>
+
+    <!-- form -->
+    <form>
+        <fieldset>
+            <!-- Legend is not a div, it's same as simple tag like "p" or "h1" -->
+            <legend>
+                Contact US
+            </legend>
+            <!-- label for input -->
+            <label for="name">NAME:</label>
+            <!-- input box -->
+            <input type="text" name="name" id="name">
+
+            <label for="password">PASSWORD:</label>
+            <input type="password">
+
+            <label for="email">EMAIL:</label>
+            <input type="email">
+
+            <label for="checkbox">CHECKBOX:</label>
+            <input type="checkbox" id="checkbox" name="checkbox">
+
+            <label for="radio">RADIO BTNS:</label>
+            <input type="radio">
+            <input type="radio">
+            <input type="radio">
+
+            <label for="file">UPLOAD FILE:</label>
+            <input type="file">
+
+
+
+            <!-- Text Area -->
+            <label for="textarea">MESSAGE</label>
+            <textarea name="" id=""></textarea>
+
+
+            <!-- DropDown list -->
+            <select name="country" id="country">
+                <option value="pakistan">Pakistan</option>
+                <option value="london">London</option>
+                <option value="america" selected>America</option>
+                <option value="india">India</option>
+
+            </select>
+
+            <!-- Uploading video from your device -->
+            <video width="320" height="240" controls>
+                <source src="" type="video/mp4">
+                <source src="movie.ogg" type="video/ogg">
+                Your browser does not support the video tag.
+            </video>
+
+            <!-- Uplaoding video from external website using iframe -->
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/onIeIeYRjNU?si=QhzUnqyhvPtZoKzx"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+            </iframe>
+        </fieldset>
+    </form>
+
+    <!-- buttons -->
+    <button type="submit">Submit</button>
+    <button disabled="disabled">disabled</button>
+
+
+    <!-- Table -->
+    <table>
+        <caption>
+            <strong>MAIN HEADING</strong>
+        </caption>
+        <tr>
+            <th>Column 1</th>
+            <th>Column 2</th>
+            <th>Column 3</th>
+        </tr>
+        <tr>
+            <td>Cell 1</td>
+            <td>Cell 2</td>
+            <td>Cell 3</td>
+        </tr>
+
+        <tr>
+            <td>Cell 1</td>
+            <td>Cell 2</td>
+            <td>Cell 3</td>
+        </tr>
+    </table>
+
+    <!-- span -->
+    <p>Lorem ipsum dolor sit amet <span>consectetur adipisicing elit.</span> Optio porro numquam, iste in nesciunt fugit
+        necessitatibus! Alias amet nihil maiores cum animi praesentium error nam cumque, nemo dolore est doloribus?</p>
+
+
+</body>
+
+</html>
