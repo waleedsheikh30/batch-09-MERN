@@ -1,0 +1,81 @@
+.main{
+    background-color: blue;
+    color: #fff;
+    padding: 20px;
+    margin: 20px;
+
+}
+
+.main h1{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 3rem;
+
+}
+
+img {
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+
+}
+
+.center-div{
+    /* border: 1px solid; */
+    /* width: 50%; */
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+#row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.row-2{
+    display: flex;
+    justify-content: space-evenly;
+    /* margin-bottom: 70px; */
+}
+
+.row-2 h2{
+    border: 1px solid green;
+    border-radius: 50%;
+}
+
+button{
+    /* border: 1px solid white; */
+    padding: 10px;
+    /* margin: 10px; */
+    width: 20%;
+    border-radius: 10px;
+    background-color: yellow;
+    border: none;
+    color: brown;
+    margin-top: 70px;
+    margin-left: 50px;
+}
+
+.bg{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRitS6XUAh0MRgcS46Lf7zNcPzUgbPILJ8NpQ&s");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid;
+    /* color: #fff; */
+}
+
+.main-div {
+    display: flex;
+    flex-direction: column;
+}
+
+.img1{
+    display: flex;
+    margin-bottom: 150px;
+}
+
+.img2{
+    display: flex;
+}
