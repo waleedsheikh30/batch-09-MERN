@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+nav ul li{
+    list-style-type: none;
+}
+
+.hero{
+    background-image: url("../class-01/image1.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    height: 50vh;
+
+}
+
+h1{
+    text-align: center;
+    box-shadow: 10px 10px 20px #000;
+}
+p{
+    text-align: center;
+}
+
+h1::first-letter{
+    color: #000;
+}
+
+p::first-line{
+    color: #000;
+}
+
+/* For mobile */
+@media screen and (min-width: 320px) and (max-width: 480px) {}
+
+
+/* For iPads, Tablets. */
+@media screen and (min-width: 481px) and (max-width: 768px) {}
+
+
+/* For Small screens, laptops. */
+@media screen and (min-width: 769px) and (max-width: 1024px) {}
+
+/* For Desktops, large screens. */
+@media screen and (min-width: 1025px) and (max-width: 1200px) {}
